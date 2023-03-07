@@ -1,41 +1,6 @@
 <resources>
     <string name="app_name">VideoPlayerRecyclerviewApplication</string>
 
-    // do not change
-    <string name="one_x_string">1x</string>
-    <string name="two_x_string">2x</string>
-    <string name="one_point_five_x_string">1.5x</string>
-    <string name="zero_point_five_x_string">0.5x</string>
-    <string name="zero_point_two_five_x_string">0.25x</string>
 
-    <array name="play_back_array">
-        <item>0.25x</item>
-        <item>0.5x</item>
-        <item>1x</item>
-        <item>1.5x</item>
-        <item>2x</item>
-
-    </array>
-    // do not change
-
-
-    // do not change
-    <array name="quality_array">
-        <item name="high_quality_string">High (720p)</item>
-        <item name="medium_quality_string">Medium (480p)</item>
-        <item name="medium_quality_string">Medium-Low (360p)</item>
-        <item name="low_quality_string">Low (240p)</item>
-        <item name="auto_quality_string">Auto</item>
-    </array>
-    <string name="high_quality_string">High Quality (720p)</string>
-    <string name="medium_quality_string">Medium Quality (480p)</string>
-    <string name="low_quality_string">Low Quality (240p)</string>
-    <string name="auto_quality_string">Auto Quality</string>
-
-    <string name="track_selection_title">Video Quality</string>
-    <string name="high_quality">2097152</string>
-    <string name="medium_quality">1572864</string>
-    <string name="medium_low_quality">1048576</string>
-    <string name="low_quality">524288</string>
 
 </resources>

@@ -12,26 +12,9 @@
         android:layout_height="match_parent"
         tools:context=".MainActivity">
 
-        <FrameLayout
-            android:id="@+id/root"
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerview"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@color/black"
-            android:gravity="center"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
-
-            <com.google.android.exoplayer2.ui.PlayerView
-                android:id="@+id/videoExoplayer"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                app:controller_layout_id="@layout/custom_controls"
-
-                app:surface_type="texture_view" />
-
-        </FrameLayout>
-
+            android:layout_height="match_parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

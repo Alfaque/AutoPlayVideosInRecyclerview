@@ -53,4 +53,8 @@ dependencies {
     implementation 'com.intuit.sdp:sdp-android:1.0.6'
     implementation 'com.intuit.ssp:ssp-android:1.0.6'
 
+
+//    implementation 'com.link184:lifecycle-delegates:1.1.0'
+
+
 }
