@@ -25,7 +25,8 @@
                 android:layout_alignParentLeft="true"
                 android:clickable="true"
                 android:focusable="true"
-                android:padding="10dp">
+                android:padding="10dp"
+                android:visibility="gone">
 
                 <ImageView
                     android:layout_width="25dp"
@@ -65,7 +66,8 @@
                 android:layout_alignParentRight="true"
                 android:clickable="true"
                 android:focusable="true"
-                android:padding="10dp">
+                android:padding="10dp"
+                android:visibility="gone">
 
                 <ImageView
                     android:id="@+id/exo_fullscreen_icon"
@@ -80,13 +82,13 @@
             </RelativeLayout>
         </RelativeLayout>
 
-        <ProgressBar
-            android:id="@+id/progressBar"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_centerInParent="true"
+        <!--        <ProgressBar-->
+        <!--            android:id="@+id/progressBar"-->
+        <!--            android:layout_width="50dp"-->
+        <!--            android:layout_height="50dp"-->
+        <!--            android:layout_centerInParent="true"-->
 
-            android:layout_centerHorizontal="true" />
+        <!--            android:layout_centerHorizontal="true" />-->
 
         <LinearLayout
             android:id="@+id/center_control"
@@ -166,7 +168,15 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:tint="@color/white" />
 
-
+                <ImageView
+                    android:id="@+id/exo_track_selection_view"
+                    android:layout_width="@dimen/_24sdp"
+                    android:layout_height="@dimen/_24sdp"
+                    android:src="@drawable/exo_ic_settings"
+                    android:visibility="gone"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/fullscreen"
+                    app:tint="@color/white" />
             </LinearLayout>
 
 
@@ -182,7 +192,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="start"
-                    android:textColor="@color/gray"
+
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -192,7 +202,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="end"
-                    android:textColor="@color/gray"
+
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -208,6 +218,14 @@
                     android:layout_height="wrap_content"
                     app:bar_height="2dp" />
 
+                <!--                <SeekBar-->
+                <!--                    android:id="@+id/exo_seekbar"-->
+                <!--                    android:layout_width="match_parent"-->
+
+                <!--                    android:layout_height="@dimen/_30sdp"-->
+                <!--                    android:progressBackgroundTint="#80FFFFFF"-->
+                <!--                    android:progressTint="@color/white"-->
+                <!--                    android:visibility="gone" />-->
             </RelativeLayout>
 
 
